@@ -1,0 +1,19 @@
+@import './base/_variables';
+@import 'blocks/_promo';
+@import 'blocks/_header';
+@import 'blocks/_buttons';
+@import 'blocks/_advantages';
+@import 'blocks/_titles';
+@import 'blocks/_consultation';
+@import 'blocks/_forms';
+@import 'blocks/_carousel';
+
+* {
+    font-family: 'Museo Sans', sans-serif;
+}
+
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import '_media.scss';

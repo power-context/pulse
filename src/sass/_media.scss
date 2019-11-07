@@ -1,0 +1,128 @@
+@media(max-width: 1200px){
+
+}
+@media(max-width: 992px){
+    .container{
+        padding: 0 20px;
+    }
+}
+@media(max-width: 768px){
+    .header{
+        &__logo{
+            width: 180px;
+        }
+        &__phone{
+            font-size: 16px;
+        }
+    }
+    .promo{
+        min-height: 600px;
+        padding-bottom: 40px;
+        &__wrapper{
+            margin-top: 65px;
+        }
+        &__header{
+            margin: 0 auto;
+        }
+        &__subheader{
+            margin: 0 auto;
+        }
+        &__icons{
+            margin: 65px auto 0;
+        }
+        &__link{
+            margin: 18px auto 0;
+        }
+    }
+    .button_main{
+        margin: 60px auto 0;
+    }
+    .advantages{
+        min-height: 400px;
+        padding: 50px 0;
+        &__list{
+            margin-top: 0;
+            flex-wrap: wrap;
+        }
+        &__item{
+            margin-top: 40px;
+        }
+        &__header{
+            margin: 20px 0;
+        }
+    }
+    .consultation{
+        padding: 50px 0 60px 0;
+        min-height: 600px;
+        .title_left{
+            text-align: center;
+        }
+        .consultation__descr{
+            margin-top: 45px;
+            text-align: center;
+        }
+    }
+    .feed-form{
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+}
+@media(max-width: 577px){
+    .header{
+        flex-direction: column;
+        &__logo{
+            width: 200px;
+        }
+        &__official{
+            margin-top: 10px;
+        }
+        &__contacts{
+            align-items: center;
+            margin-top: 5px;
+        }
+    }
+    .promo{
+        &__icons{
+            width: 290px;
+            max-width: 400px;
+        }
+        &__wrapper{
+            margin-top: 35px;
+        }
+        &__header{
+            font-size: 30px;
+            text-align: center;
+        }
+        &__subheader{
+            margin-top: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+        &__icons{
+            margin-top: 35px;
+        }
+    }
+    .button_main{
+        margin-top: 35px;
+        width: 280px;
+    }
+    .title{
+        font-size: 22px;
+    }
+    .advantages{
+        &__item{
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+    .feed-form{
+        margin-top: 50px;
+        width: 250px;
+        input{
+            height: 40px;
+        }
+    }
+    .button_submit{
+        height: 45px;
+    }
+}
